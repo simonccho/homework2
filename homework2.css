@@ -16,64 +16,13 @@ select {
     border: 1px solid grey;
 }
 
-/*field size*/
-#firstName,
-#lastName {
-    width: 11rem;
-}
-
-#middleInitial {
-    width: 2rem;
-}
-
-#city,
-#zip {
-    width: 12rem;
-}
-
-#state {
-    width: 12.4rem;
-}
-
-#email,
-#userID,
-#password,
-#passwordCheck,
-#addressLine1,
-#addressLine2,
-#SSN,
-#phone {
-    width: 25rem;
-}
-
-.rb {
-    margin-right: 1rem;
-}
-
-textarea {
-    max-width: 33rem;
-    border-radius: 0.3rem;
-    border: 1px solid grey;
-}
-
 table {
     border-collapse: separate;
     border-spacing: 0 0.5rem;
 }
 
-input[type="range"] { 
-    width: 8em;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.sliderValue {
-    text-align: right;
-    margin-right: 10rem;
-}
 
 /*Header*/
-
 .topTable {
     width: 100%;
     padding: 0.5rem;
@@ -118,11 +67,64 @@ input[type="range"] {
 /*name*/
 .nameField {
     display: inline-block;
+    vertical-align: top;
 }
 
 /*gender row*/
 .genderCol {
     display: inline-block;
+}
+
+/*field size*/
+#firstName,
+#lastName {
+    width: 11rem;
+}
+
+#middleInitial {
+    width: 2rem;
+}
+
+#city,
+#zip {
+    width: 12rem;
+}
+
+#state {
+    width: 12.4rem;
+}
+
+#email,
+#userID,
+#password,
+#passwordCheck,
+#addressLine1,
+#addressLine2,
+#SSN,
+#phone {
+    width: 25rem;
+}
+
+/*lower half*/
+.rb {
+    margin-right: 1rem;
+}
+
+textarea {
+    max-width: 33rem;
+    border-radius: 0.3rem;
+    border: 1px solid grey;
+}
+
+input[type="range"] { 
+    width: 8em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sliderValue {
+    text-align: right;
+    margin-right: 10rem;
 }
 
 .endOfFormButtons {
@@ -156,14 +158,6 @@ button,
     padding: 0.3rem;
     border-radius: 0.3rem;
     margin: 0.3rem;
-}
-
-/*errors*/
-.error,
-.pwderror {
-    color: red;
-    font-family: Sans-Serif;
-    font-size: 0.65em;
 }
 
 /*output styling*/
@@ -203,4 +197,12 @@ button,
     width:fit-content;
     text-align:left;
     float:none;
+}
+
+/*errors*/
+.error,
+.pwderror {
+    color: red;
+    font-family: Sans-Serif;
+    font-size: 0.65em;
 }
